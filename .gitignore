@@ -1,0 +1,4 @@
+# Raw and cleaned datasets (download from Kaggle, see README)
+*.csv
+.ipynb_checkpoints/
+__pycache__/
