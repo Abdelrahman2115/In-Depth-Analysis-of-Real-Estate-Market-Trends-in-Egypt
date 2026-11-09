@@ -1,0 +1,6 @@
+Model,CV Median APE (%),CV R² (log price),Test MAE (EGP),Test RMSE (EGP),Test MAPE (%),Test Median APE (%),Test Within 20% (%),Test R² (EGP),Test R² (log price)
+Global median (baseline),56.105,-0.004,6284409.118,11586466.652,123.166,55.0,17.749,-0.073,-0.005
+Source × district × type median price/m² (baseline),30.912,0.638,3960513.731,7548674.274,58.121,30.479,34.568,0.544,0.636
+Ridge regression,28.984,0.709,3579720.627,7140620.137,47.993,28.883,35.435,0.592,0.706
+Random forest,22.914,0.747,3065069.894,6552801.086,41.141,22.136,46.182,0.657,0.751
+Gradient boosting (HistGB),24.672,0.745,3175568.49,6508497.138,42.073,24.004,42.573,0.661,0.748

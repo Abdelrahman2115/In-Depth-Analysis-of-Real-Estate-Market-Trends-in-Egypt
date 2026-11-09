@@ -1,0 +1,13 @@
+source,step,rows_before,rows_after,removed
+OLX,drop rows with a phone-number placeholder as location,27361,27300,61
+Bayut,drop repeated listing URLs,50000,45812,4188
+Bayut,keep EGP prices only (drop USD/other currencies),45812,45812,0
+Cairo,drop 'Ask' (no price) listings,11418,11006,412
+All,combine the three sources,84118,84118,0
+All,drop non-residential / unknown property types,84118,83922,196
+All,"drop rows missing price, area, bedrooms or bathrooms",83922,82536,1386
+All,area between 25 and 2000 m²,82536,82449,87
+All,1-10 bedrooms and bathrooms,82449,82387,62
+All,"price per m² between 3,000 and 400,000 EGP (removes rentals, typos and unconverted foreign-currency prices)",82387,79272,3115
+All,outliers in log(price per m²) per source and type (2.5×IQR fence),79272,79039,233
+All,"remove duplicate listings (3,161 rows were in a group spanning 2+ sites)",79039,62340,16699

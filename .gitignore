@@ -1,4 +1,12 @@
-# Raw and cleaned datasets (download from Kaggle, see README)
-*.csv
-.ipynb_checkpoints/
+# Datasets are downloaded from Kaggle (see README), not committed
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Python / Jupyter
 __pycache__/
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
