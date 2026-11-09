@@ -29,7 +29,3 @@ kaggle datasets download -d ameribrahim/real-estate-bayot-egypt --unzip
 2. Run `FinalCode.ipynb` to merge the data, run the EDA, train the price prediction models, and use the recommendation system.
 
 Requirements: Python 3, Jupyter, pandas, numpy, scipy, matplotlib, seaborn, scikit-learn, mlxtend, and tensorflow.
-
-## Acknowledgements
-
-Original project by [Abdullah Abdellatef](https://github.com/AbdullahAbdellatef), shared here with his permission. Datasets by their respective Kaggle authors listed above.
